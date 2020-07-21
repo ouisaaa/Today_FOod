@@ -63,67 +63,85 @@
 .left-banner{
 	position:absolute;
 	top:15rem;
-	left: 40rem;
+	left: 50px;
 	padding:0;
 }
 .right-banner{
 	position:absolute;
 	top:15rem;
-	right: 40rem;
+	right: 50px;
 	padding:0 ;
 }
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
 	.main-box{
-		width: 50rem;
-		height: 60vw;
+		width: 35rem;
+		height: 48rem;
 		border-radius:10px;
 		text-align:center;
 		border: solid 1.5px #edfcc2;
 		background-color:#edfcc2;
 		font-family: 'Hi Melody', cursive;
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.result-food{
 		font-size: 9vw;
-		margin-top: 20vw;
+		margin-top: 25vw;
 		margin-bottom: 25vw;
 	}
 	.bottom-banner{
 		width:800px;
 		margin:0 auto;
-		padding-top: 2vw;
+		padding-top: 4rem;
 		padding-bottom: 1vw;
 	}
 	.left-banner{
 		position:absolute;
-		top:15rem;
-		left: 40rem;
+		top: 15rem;
+		left: 40px;
 		padding:0;
 	}
 	.right-banner{
 		position:absolute;
 		top:15rem;
-		right: 40rem;
+		right: 40px;
 		padding:0 ;
-	}		
+	}
 }
 
 /* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 	.main-box{
-		width: 50rem;
-		height: 60vw;
+		width: 50vw;
+		height: 70vw;
 		border-radius:10px;
 		text-align:center;
 		border: solid 1.5px #edfcc2;
 		background-color:#edfcc2;
 		font-family: 'Hi Melody', cursive;
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.result-food{
-		font-size: 9vw;
-		margin-top: 20vw;
-		margin-bottom: 25vw;
+		font-size: 6vw;
+		margin-top: 25vw;
+		margin-bottom: 30vw;
+	}
+	.bottom-banner{
+		width:800px;
+		margin:0 auto;
+		padding-top: 4rem;
+		padding-bottom: 1vw;
+	}
+	.left-banner{
+		position:absolute;
+		top: 15rem;
+		left: 40px;
+		padding:0;
+	}
+	.right-banner{
+		position:absolute;
+		top:15rem;
+		right: 40px;
+		padding:0 ;
 	}
 }
