@@ -1,0 +1,93 @@
+.nav-distance{
+	background-color: #ffb3b3;
+	padding: 4% 7.7% 2% 7.7%;
+	
+}
+.navbar-brand{
+	font-family: 'Gamja Flower', cursive;
+	font-size: 4rem;
+	margin: 0 auto;	
+}
+.main-box{
+	width: 50rem;
+    height: 60vw;
+	border-radius:10px;
+	text-align:center;
+	border: solid 1.5px #edfcc2;
+	background-color:#edfcc2;
+	font-family: 'Hi Melody', cursive;
+	font-size: 3rem;
+}
+.result-food{
+	font-size: 6vw;
+	margin-top: 24vw;
+	margin-bottom: 23vw;
+}
+.btn-lg {
+    padding: .5rem 1rem;
+    font-size: 2rem;
+    line-height: 1.25;
+    border-radius: .3rem;
+}
+.btn-primary{
+	color:#fff;
+	background-color:#ffbf80;
+	border-color:#ffbf80;
+}
+.btn-primary:hover{
+	color:#fff;
+	background-color:#ff9933;
+	border-color:#ff9933;
+}
+.btn-primary:focus {
+    color: #fff;
+    background-color: #ff9933;
+    border-color: #ff9933;
+    box-shadow: 0 0 0 0.2rem rgb(255, 218, 179);
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(255, 218, 179);
+}
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ff9933;
+    border-color: #ff9933;
+}
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+	.main-box{
+		width: 50rem;
+		height: 60vw;
+		border-radius:10px;
+		text-align:center;
+		border: solid 1.5px #edfcc2;
+		background-color:#edfcc2;
+		font-family: 'Hi Melody', cursive;
+		font-size: 3rem;
+	}
+	.result-food{
+		font-size: 9vw;
+		margin-top: 20vw;
+		margin-bottom: 25vw;
+	}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+	.main-box{
+		width: 50rem;
+		height: 60vw;
+		border-radius:10px;
+		text-align:center;
+		border: solid 1.5px #edfcc2;
+		background-color:#edfcc2;
+		font-family: 'Hi Melody', cursive;
+		font-size: 3rem;
+	}
+	.result-food{
+		font-size: 9vw;
+		margin-top: 20vw;
+		margin-bottom: 25vw;
+	}
+}
